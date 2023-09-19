@@ -10,6 +10,18 @@ Riccardo Arosio (University College Cork) and Joana Gafeira (British Geological 
 The tools development was mainly funded by INFOMAR through the Irish Marine Institute’s research grant PDOC 19/08/03. 
 The British Geological Survey and iAtlantic have also supported the creation of the toolbox.
 
+## TOC
+
+- [CoMMa Toolbox](#comma-toolbox)
+  * [Overview ](#overview)
+  * [Documentation](#documentation)
+  * [Auxiliaries Tools](#auxiliaries-tools)
+    + [Local Topographic Position (LTP) derivatives](#local-topographic-position-(ltp)-derivatives)
+  * [Delineation Tools](#delineation-tools)
+  * [Description Tools](#description-tools)
+  * [Installation](#installation)
+
+
 ##  Documentation
 The documentation for CoMMa is available at….. , including a user guide, example code, and gallery.
 
