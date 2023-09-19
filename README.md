@@ -1,4 +1,6 @@
-# CoMMa
+# Table of contents
+
+# CoMMa Toolbox Overview 
 Confined Morphologies Mapping (**CoMMa**) Toolbox is an **ArcGIS Pro** toolbox created for semi-automated morphology mapping.
 
 It includes a selection of tools for the **delineation** and **description** of any type of enclosed features on a DEM, either negative or positive.
@@ -8,4 +10,12 @@ Riccardo Arosio (University College Cork) and Joana Gafeira (British Geological 
 The tools development was mainly funded by INFOMAR through the Irish Marine Institute’s research grant PDOC 19/08/03. 
 The British Geological Survey and iAtlantic have also supported the creation of the toolbox.
 
+#  Documentation
+The documentation for CoMMa is available at….. , including a user guide, example code, and gallery.
+
+# Installation
+The easiest way to ……:
+
+# Copyright and licence
+CoMMa Toolbox may be freely distributed, modified and used commercially under the terms of its GNU LGPLv3 license.
 
