@@ -19,7 +19,7 @@ Datasets may be affected by artefacts that can hinder a correct delineation of t
 A degree of data preparation, such as cleaning the initial data to remove artefacts, could be advised to enhance the performance of both the delineation and characterisation tools. 
 The CoMMa Toolbox includes five tools devoted to data preparation, that can be found within the sub-toolbox CoMMa_Auxiliaries.
 
-### Local Topographic Position (LTP) derivatives
+#### Local Topographic Position (LTP) derivatives
 
 |    Tool     |                   Description|
 |-------------|:----------------------------------------------------------------------------------------------------------:|
