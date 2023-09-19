@@ -20,6 +20,8 @@ A degree of data preparation, such as cleaning the initial data to remove artefa
 The CoMMa Toolbox includes five tools devoted to data preparation, that can be found within the sub-toolbox CoMMa_Auxiliaries.
 
 ###Local Topographic Position (LTP) derivatives
+
+|    Tool     |                   Description|
 |-------------|:----------------------------------------------------------------------------------------------------------:|
 | Mean LTPs   |   Local topographic position index metrics based on the absolute and relative mean of the neighbourhood.   |
 | Median LTPs |   Local topographic position index metrics based on the absolute and relative median of the neighbourhood. |
