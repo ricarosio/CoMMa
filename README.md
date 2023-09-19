@@ -20,8 +20,9 @@ The British Geological Survey and iAtlantic have also supported the creation of 
   * [Delineation Tools](#delineation-tools)
   * [Description Tools](#description-tools)
   * [Installation](#installation)
-
-
+  * [Copyright and licence](#Copyright-and-licence)
+  * [Acknowledgements](#acknowledgements)
+    
 ##  Documentation
 The documentation for CoMMa is available at….. , including a user guide, example code, and gallery.
 
