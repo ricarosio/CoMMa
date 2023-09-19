@@ -16,7 +16,6 @@ The British Geological Survey and iAtlantic have also supported the creation of 
   * [Overview ](#overview)
   * [Documentation](#documentation)
   * [Auxiliaries Tools](#auxiliaries-tools)
-    + [Local Topographic Position (LTP) derivatives](#local-topographic-position-(ltp)-derivatives)
   * [Delineation Tools](#delineation-tools)
   * [Description Tools](#description-tools)
   * [Installation](#installation)
