@@ -1,6 +1,9 @@
 <h1 align="center">
-CoMMa Toolbox ![](https://github.com/ricarosio/CoMMa/blob/main/CoMMaToolbox.png?raw=true)
+CoMMa Toolbox
+![](https://github.com/ricarosio/CoMMa/blob/main/CoMMaToolbox.png)
 </h1>
+![](https://github.com/ricarosio/CoMMa/blob/main/CoMMaToolbox.png)
+
 
 # Table of contents
 
