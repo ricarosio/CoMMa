@@ -1,6 +1,6 @@
-# Table of contents
+# CoMMa Toolbox
 
-# CoMMa Toolbox Overview 
+# Overview 
 Confined Morphologies Mapping (**CoMMa**) Toolbox is an **ArcGIS Pro** toolbox created for semi-automated morphology mapping.
 
 It includes a selection of tools for the **delineation** and **description** of any type of enclosed features on a DEM, either negative or positive.
