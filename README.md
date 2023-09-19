@@ -1,4 +1,8 @@
-# CoMMa Toolbox
+<h1 align="center">
+  <a href="https://scitools.org.uk/iris/docs/latest/" style="display: block; margin: 0 auto;">
+   <img src="https://raw.githubusercontent.com/SciTools/iris/master/docs/iris/src/_static/logo_banner.png"
+        style="max-width: 40%;" alt="CoMMa Toolbox"></a><br>
+
 
 ## Overview 
 Confined Morphologies Mapping (**CoMMa**) Toolbox is an **ArcGIS Pro** toolbox created for semi-automated morphology mapping.
