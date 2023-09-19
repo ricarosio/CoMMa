@@ -1,5 +1,5 @@
 <h1 align="center">
-#CoMMa Toolbox
+CoMMa Toolbox
 </h1>
 
 ## Overview 
