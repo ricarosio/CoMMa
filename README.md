@@ -7,7 +7,7 @@ CoMMa Toolbox
 - [CoMMa Toolbox](#comma-toolbox)
 - [Overview ](#overview)
 - [Documentation](#documentation)
-- [Auxiliaries Tools](#auxiliaries-tools)
+- [Data Preparation Tools](#data-preparation-tools)
 - [Delineation Tools](#delineation-tools)
   * [Local Topographic Position (LTP) derivatives](#local-topographic-position-(ltp)-derivatives)
 - [Description Tools](#description-tools)
@@ -29,7 +29,7 @@ The British Geological Survey and iAtlantic have also supported the creation of 
 #  Documentation
 The documentation for CoMMa is available at….. , including a user guide, example code, and gallery.
 
-# Auxiliaries Tools
+# Data Preparation Tools
 The CoMMa Toolbox works on DEMs, obtained from multibeam echosounder data or other geophysical and optical instruments (e.g., Lidar, 3D seismic etc.). 
 Datasets may be affected by artefacts that can hinder a correct delineation of the features of interest, for example, vessel motion-related artefacts. 
 A degree of data preparation, such as cleaning the initial data to remove artefacts, could be advised to enhance the performance of both the delineation and characterisation tools. 
