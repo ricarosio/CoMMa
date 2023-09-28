@@ -67,11 +67,13 @@ These tools can be used to characterise both features that were mapped automatic
 The CoMMa toolbox is comprised of three Python toolboxes, that can be loaded to an ArcGIS Pro project as any standard toolbox. 
 
 To add the three CoMMa python toolboxes to a project, in the Catalog pane, right-click on Toolboxes and select “Add Toolbox”
-Then, navigate to the folder where CoMMa Toolbox was saved and select the following .pyt files: CoMMa Data Preparation.pyt; CoMMa Delineation.pyt and CoMMa Description.pyt
+Then, navigate to the folder where CoMMa Toolbox was saved and select the following .pyt files: 
 <p align="center" width="100%">
-    <img width="85%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/Documentation/Images/AddToolbox.gif">
+- CoMMa Data Preparation.pyt,  CoMMa Delineation.pyt  and  CoMMa Description.pyt.
 </p>
-
+<p align="center" width="100%">
+    <img width="70%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/Documentation/Images/AddToolbox_L.gif">
+</p>
 A reference to the toolsets is saved within the project and they will be in the Toolbox node of the Catalog pane the next time the project is open.
 
 # Copyright and licence
