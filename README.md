@@ -12,7 +12,7 @@
 - [Delineation Tools](#delineation-tools)
 - [Description Tools](#description-tools)
 - [Installation](#installation)
-- [Copyright and licence](#Copyright-and-licence)
+- [Copyright and licence](#copyright-and-licence)
 - [Acknowledgements](#acknowledgements)
     
 
@@ -66,14 +66,11 @@ The CoMMa toolbox is comprised of three Python toolboxes, that can be loaded to 
 To add the three CoMMa python toolboxes to a project, in the Catalog pane, right-click on Toolboxes and select “Add Toolbox”
 Then, navigate to the folder where CoMMa Toolbox was saved and select the following .pyt files: CoMMa Data Preparation.pyt; CoMMa Delineation.pyt and CoMMa Description.pyt
 
-![AddToolbox](https://github.com/ricarosio/CoMMa/assets/145455310/0a256db0-106e-4287-b87e-caf5592d2f7b)
-
-
 <p align="center" width="100%">
-    <img width="33%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/AddToolbox.gif">
+    <img width="85%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/AddToolbox.gif">
 </p>
 
-A reference to the toolboxes is saved within the project and they will be in the Toolboxes node of the Catalog pane the next time the project is open.
+A reference to the toolsets is saved within the project and they will be in the Toolbox node of the Catalog pane the next time the project is open.
 
 # Copyright and licence
 CoMMa Toolbox may be freely distributed, modified and used commercially under the terms of its GNU LGPLv3 license.
