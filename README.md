@@ -42,6 +42,15 @@ The CoMMa Toolbox includes five tools devoted to data preparation, that can be f
 | Mean LTPs   |   Local topographic position index metrics based on the absolute and relative mean of the neighbourhood.   |
 | Median LTPs |   Local topographic position index metrics based on the absolute and relative median of the neighbourhood. |
 
+
+## Pre-processing
+
+### Fencing Tool	
+This tool creates an artificial containing “fence” around the perimeter of the input DEM, allowing the delineation of landforms that are at the boundary of the dataset and that otherwise would be considered, by the “Boundary-based Delineation” tool, as unconfined morphological features. 
+This script assists the feature delineation tools by creating a buffer around the Input Raster. For target features with positive relief, the minimum value of the input DEM will be used for the artificial fence set by the buffer, whereas for negative target features, it will use the maximum value. This artificial fence should allow the delineation of landforms only partially captured within the dataset and that otherwise would be considered, by the “Boundary-based Delineation” tool, as unconfined. 
+
+![image](https://github.com/ricarosio/CoMMa/assets/145455310/f726129e-fb85-42a5-804a-9b6241458c9e)
+
 # Delineation Tools
 There are two available delineation tools in CoMMa Toolbox, the “Fill-based” and the “Geomorphons-based” delineation tools. 
 The delineation tools can use directly the DEM or a derived raster (such as BPI or Geomorphons) and will be based on a set of user-defined thresholds to best delineate the target features.   
