@@ -7,6 +7,8 @@
 - [Documentation](#documentation)
 - [Data Preparation Tools](#data-preparation-tools)
   * [Local Topographic Position (LTP) derivatives](#local-topographic-position-(ltp)-derivatives)
+- [Pre-processing](#pre-processing)
+  * [Fencing Tool](#fencingtool)
 - [Delineation Tools](#delineation-tools)
 - [Description Tools](#description-tools)
 - [Installation](#installation)
