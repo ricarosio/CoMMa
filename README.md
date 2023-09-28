@@ -52,8 +52,6 @@ This script assists the feature delineation tools by creating a buffer around th
 
 ![image](https://github.com/ricarosio/CoMMa/assets/145455310/f726129e-fb85-42a5-804a-9b6241458c9e) 
 
-![](https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/AddToolbox.gif|width=100px)
-
 # Delineation Tools
 There are two available delineation tools in CoMMa Toolbox, the “Fill-based” and the “Geomorphons-based” delineation tools. 
 The delineation tools can use directly the DEM or a derived raster (such as BPI or Geomorphons) and will be based on a set of user-defined thresholds to best delineate the target features.   
@@ -69,6 +67,11 @@ To add the three CoMMa python toolboxes to a project, in the Catalog pane, right
 Then, navigate to the folder where CoMMa Toolbox was saved and select the following .pyt files: CoMMa Data Preparation.pyt; CoMMa Delineation.pyt and CoMMa Description.pyt
 
 ![AddToolbox](https://github.com/ricarosio/CoMMa/assets/145455310/0a256db0-106e-4287-b87e-caf5592d2f7b)
+
+
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/AddToolbox.gif">
+</p>
 
 A reference to the toolboxes is saved within the project and they will be in the Toolboxes node of the Catalog pane the next time the project is open.
 
