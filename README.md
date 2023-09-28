@@ -66,3 +66,7 @@ The easiest way to ……:
 CoMMa Toolbox may be freely distributed, modified and used commercially under the terms of its GNU LGPLv3 license.
 
 # Acknowledgements 
+
+![image](https://github.com/ricarosio/CoMMa/assets/145455310/5fdd2e27-a0cd-4895-82c1-f5eebc690f1c)   ![image](https://github.com/ricarosio/CoMMa/assets/145455310/84f767ec-1421-4513-870d-3b502776e568)  ![image](https://github.com/ricarosio/CoMMa/assets/145455310/eef95fc6-cd44-4edd-8ec3-b4e1ba1a3002)
+
+
