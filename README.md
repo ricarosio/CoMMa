@@ -67,7 +67,7 @@ To add the three CoMMa python toolboxes to a project, in the Catalog pane, right
 Then, navigate to the folder where CoMMa Toolbox was saved and select the following .pyt files: CoMMa Data Preparation.pyt; CoMMa Delineation.pyt and CoMMa Description.pyt
 
 <p align="center" width="100%">
-    <img width="85%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/AddToolbox.gif">
+    <img width="85%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/Documentation/Images/AddToolbox.gif">
 </p>
 
 A reference to the toolsets is saved within the project and they will be in the Toolbox node of the Catalog pane the next time the project is open.
