@@ -67,6 +67,9 @@ CoMMa Toolbox may be freely distributed, modified and used commercially under th
 
 # Acknowledgements 
 
-![image](https://github.com/ricarosio/CoMMa/assets/145455310/5fdd2e27-a0cd-4895-82c1-f5eebc690f1c)   ![image](https://github.com/ricarosio/CoMMa/assets/145455310/84f767ec-1421-4513-870d-3b502776e568)  ![image](https://github.com/ricarosio/CoMMa/assets/145455310/eef95fc6-cd44-4edd-8ec3-b4e1ba1a3002)
+![image](https://github.com/ricarosio/CoMMa/assets/145455310/5fdd2e27-a0cd-4895-82c1-f5eebc690f1c)   ![image](https://github.com/ricarosio/CoMMa/assets/145455310/84f767ec-1421-4513-870d-3b502776e568) 
+![image](https://github.com/ricarosio/CoMMa/assets/145455310/ecdc36f2-b59e-409f-92f9-09439b80b6d2)
+![image](https://github.com/ricarosio/CoMMa/assets/145455310/f8b95095-86d1-40b5-9c4b-8e2714579ef6)
+![image](https://github.com/ricarosio/CoMMa/assets/145455310/eef95fc6-cd44-4edd-8ec3-b4e1ba1a3002)
 
 
