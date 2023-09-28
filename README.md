@@ -1,5 +1,7 @@
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/Documentation/Images/CoMMaToolbox.png">
+</p>
 
-![image](https://github.com/ricarosio/CoMMa/assets/145455310/87c96df5-d4bd-4dcc-8eac-d837a9fb275e)
 
 # Table of contents
 
@@ -17,9 +19,9 @@
     
 
 # Overview 
-Confined Morphologies Mapping (**CoMMa**) Toolbox is an **ArcGIS Pro** toolbox created for semi-automated morphology mapping.
+**Co**nfined **M**orphologies **Ma**pping (**CoMMa**) Toolbox is an **ArcGIS Pro** toolbox created for semi-automated morphology mapping.
 
-It includes a selection of tools for the **delineation** and **description** of any type of enclosed features on a DEM, either negative or positive.
+It includes a selection of tools for the **delineation** and **description** of any type of enclosed features on a DEM, either negative or positive. The CoMMA toolbox includes three toolsets that allow the user to pre-process DEM data and calculate local topographic parameters, delineate potential features using the Delineation tools and describe the morphological characteristics of confined features using the basic, texture and volume descriptors tools. 
 The CoMMa Toolbox is made up of individual Python scripts that use a sequence of pre-existing ArcGIS geoprocessing tools and do not require the installation of any new Python package.
 
 Riccardo Arosio (University College Cork) and Joana Gafeira (British Geological Survey) conceived the original idea of the new ArcGIS Pro based on a previous toolbox created by Joana Gafeira, the BGS Seabed Mapping Toolbox (Gafeira, J., 2017). 
