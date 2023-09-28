@@ -25,8 +25,8 @@ It includes a selection of tools for the **delineation** and **description** of 
 The CoMMa Toolbox is made up of individual Python scripts that use a sequence of pre-existing ArcGIS geoprocessing tools and do not require the installation of any new Python package.
 
 Riccardo Arosio (University College Cork) and Joana Gafeira (British Geological Survey) conceived the original idea of the new ArcGIS Pro based on a previous toolbox created by Joana Gafeira, the BGS Seabed Mapping Toolbox (Gafeira, J., 2017). 
-The tools development was mainly funded by INFOMAR through the Irish Marine Institute’s research grant PDOC 19/08/03. 
-The British Geological Survey and iAtlantic have also supported the creation of the toolbox.
+The tools development was mainly funded by **INFOMAR** through the **Irish Marine Institute**’s research grant PDOC 19/08/03. 
+The **British Geological Survey** and **iAtlantic Project** have also supported the creation of the toolbox.
 
 #  Documentation
 The documentation for CoMMa is available at….. , including a user guide, example code, and gallery.
