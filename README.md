@@ -49,8 +49,9 @@ The CoMMa Toolbox includes five tools devoted to data preparation, that can be f
 ### Fencing Tool	
 This tool creates an artificial containing “fence” around the perimeter of the input DEM, allowing the delineation of landforms that are at the boundary of the dataset and that otherwise would be considered, by the “Boundary-based Delineation” tool, as unconfined morphological features. 
 This script assists the feature delineation tools by creating a buffer around the Input Raster. For target features with positive relief, the minimum value of the input DEM will be used for the artificial fence set by the buffer, whereas for negative target features, it will use the maximum value. This artificial fence should allow the delineation of landforms only partially captured within the dataset and that otherwise would be considered, by the “Boundary-based Delineation” tool, as unconfined. 
-
-![image](https://github.com/ricarosio/CoMMa/assets/145455310/f726129e-fb85-42a5-804a-9b6241458c9e) 
+<p align="center" width="100%">
+    <img width="40%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/Documentation/Images/FencingTool.jpg">
+</p>
 
 # Delineation Tools
 There are two available delineation tools in CoMMa Toolbox, the “Fill-based” and the “Geomorphons-based” delineation tools. 
@@ -65,7 +66,6 @@ The CoMMa toolbox is comprised of three Python toolboxes, that can be loaded to 
 
 To add the three CoMMa python toolboxes to a project, in the Catalog pane, right-click on Toolboxes and select “Add Toolbox”
 Then, navigate to the folder where CoMMa Toolbox was saved and select the following .pyt files: CoMMa Data Preparation.pyt; CoMMa Delineation.pyt and CoMMa Description.pyt
-
 <p align="center" width="100%">
     <img width="85%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/Documentation/Images/AddToolbox.gif">
 </p>
