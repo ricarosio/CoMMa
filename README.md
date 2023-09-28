@@ -65,6 +65,8 @@ The CoMMa toolbox is comprised of three Python toolboxes, that can be loaded to 
 To add the three CoMMa python toolboxes to a project, n the Catalog pane, right-click on Toolboxes and select “Add Toolbox”
 Then, navigate to the folder where CoMMa Toolbox was saved and select the following .pyt files: CoMMa Data Preparation.pyt; CoMMa Delineation.pyt and CoMMa Description.pyt
 
+![image](https://github.com/ricarosio/CoMMa/assets/145455310/1c53607b-b1f1-45e0-8a6c-2e2d02ea59a5)
+
 A reference to the toolboxes is saved within the project and they will be in the Toolboxes node of the Catalog pane the next time the project is open.
 
 # Copyright and licence
