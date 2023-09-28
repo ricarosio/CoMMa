@@ -48,8 +48,8 @@ The CoMMa Toolbox includes five tools devoted to data preparation, that can be f
 ### Fencing Tool	
 This tool creates an artificial containing “fence” around the perimeter of the input DEM, allowing the delineation of landforms that are at the boundary of the dataset and that otherwise would be considered, by the “Boundary-based Delineation” tool, as unconfined morphological features. 
 This script assists the feature delineation tools by creating a buffer around the Input Raster. For target features with positive relief, the minimum value of the input DEM will be used for the artificial fence set by the buffer, whereas for negative target features, it will use the maximum value. This artificial fence should allow the delineation of landforms only partially captured within the dataset and that otherwise would be considered, by the “Boundary-based Delineation” tool, as unconfined. 
-
-![image](https://github.com/ricarosio/CoMMa/assets/145455310/f726129e-fb85-42a5-804a-9b6241458c9e)
+<a <img align="center" ![image](https://github.com/ricarosio/CoMMa/assets/145455310/f726129e-fb85-42a5-804a-9b6241458c9e) />
+</a>
 
 # Delineation Tools
 There are two available delineation tools in CoMMa Toolbox, the “Fill-based” and the “Geomorphons-based” delineation tools. 
@@ -67,10 +67,10 @@ CoMMa Toolbox may be freely distributed, modified and used commercially under th
 
 # Acknowledgements 
 
-![image](https://github.com/ricarosio/CoMMa/assets/145455310/5fdd2e27-a0cd-4895-82c1-f5eebc690f1c)   ![image](https://github.com/ricarosio/CoMMa/assets/145455310/84f767ec-1421-4513-870d-3b502776e568) 
-![image](https://github.com/ricarosio/CoMMa/assets/145455310/ecdc36f2-b59e-409f-92f9-09439b80b6d2)
-![image](https://github.com/ricarosio/CoMMa/assets/145455310/f8b95095-86d1-40b5-9c4b-8e2714579ef6)
-![image](https://github.com/ricarosio/CoMMa/assets/145455310/a30e5c28-1591-47ac-9224-32018afd9076)
+![image](https://github.com/ricarosio/CoMMa/assets/145455310/5fdd2e27-a0cd-4895-82c1-f5eebc690f1c)   ![image](https://github.com/ricarosio/CoMMa/assets/145455310/84f767ec-1421-4513-870d-3b502776e568)   
+![image](https://github.com/ricarosio/CoMMa/assets/145455310/ecdc36f2-b59e-409f-92f9-09439b80b6d2)  
+![image](https://github.com/ricarosio/CoMMa/assets/145455310/f8b95095-86d1-40b5-9c4b-8e2714579ef6)  
+![image](https://github.com/ricarosio/CoMMa/assets/145455310/a30e5c28-1591-47ac-9224-32018afd9076)  
 
 
 
