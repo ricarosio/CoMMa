@@ -1,7 +1,5 @@
-<h1 align="center">
+<align="center">
 ![image](https://github.com/ricarosio/CoMMa/assets/145455310/8e0c3e92-5f5c-4a6d-8cd8-255c39237b1d)
-
-</h1>
 
 # Table of contents
 
