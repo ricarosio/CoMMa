@@ -52,6 +52,8 @@ This script assists the feature delineation tools by creating a buffer around th
 
 ![image](https://github.com/ricarosio/CoMMa/assets/145455310/f726129e-fb85-42a5-804a-9b6241458c9e) 
 
+![](https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/AddToolbox.gif|width=100px)
+
 # Delineation Tools
 There are two available delineation tools in CoMMa Toolbox, the “Fill-based” and the “Geomorphons-based” delineation tools. 
 The delineation tools can use directly the DEM or a derived raster (such as BPI or Geomorphons) and will be based on a set of user-defined thresholds to best delineate the target features.   
