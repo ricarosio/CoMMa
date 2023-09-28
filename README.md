@@ -67,6 +67,10 @@ CoMMa Toolbox may be freely distributed, modified and used commercially under th
 
 # Acknowledgements 
 
+Riccardo Arosio (University College Cork) and Joana Gafeira (British Geological Survey) conceived the original idea of the new ArcGIS Pro based on a previous toolbox created by Joana Gafeira, the BGS Seabed Mapping Toolbox (Gafeira, J., 2017). Riccardo Arosio wrote the Python scripts while Joana Gafeira and Laurence De Clippele performed extensive testing.
+The tools development was mainly funded by INFOMAR through the Irish Marine Institute’s research grant PDOC 19/08/03. The British Geological Survey and iAtlantic have also supported the creation of the toolbox.
+
+
 ![image](https://github.com/ricarosio/CoMMa/assets/145455310/5fdd2e27-a0cd-4895-82c1-f5eebc690f1c)       ![image](https://github.com/ricarosio/CoMMa/assets/145455310/84f767ec-1421-4513-870d-3b502776e568)        ![image](https://github.com/ricarosio/CoMMa/assets/145455310/ecdc36f2-b59e-409f-92f9-09439b80b6d2)  
 ![image](https://github.com/ricarosio/CoMMa/assets/145455310/f8b95095-86d1-40b5-9c4b-8e2714579ef6)         ![image](https://github.com/ricarosio/CoMMa/assets/145455310/a30e5c28-1591-47ac-9224-32018afd9076)  
 
