@@ -67,6 +67,7 @@ Then, navigate to the folder where CoMMa Toolbox was saved and select the follow
 
 ![AddToolbox](https://github.com/ricarosio/CoMMa/assets/145455310/0a256db0-106e-4287-b87e-caf5592d2f7b)
 
+![AddToolbox_S](https://github.com/ricarosio/CoMMa/assets/145455310/1c271bb5-3fbb-4380-bc46-e3fc901227b0)
 
 A reference to the toolboxes is saved within the project and they will be in the Toolboxes node of the Catalog pane the next time the project is open.
 
