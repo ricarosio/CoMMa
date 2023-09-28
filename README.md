@@ -1,5 +1,5 @@
-<align="center">
-![image](https://github.com/ricarosio/CoMMa/assets/145455310/8e0c3e92-5f5c-4a6d-8cd8-255c39237b1d)
+
+![image](https://github.com/ricarosio/CoMMa/assets/145455310/87c96df5-d4bd-4dcc-8eac-d837a9fb275e)
 
 # Table of contents
 
