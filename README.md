@@ -29,7 +29,7 @@ The tools development was mainly funded by **INFOMAR** through the **Irish Marin
 The **British Geological Survey** and **iAtlantic Project** have also supported the creation of the toolbox.
 
 #  Documentation
-The documentation for CoMMa is available at….. , including a user guide, example code, and gallery.
+The documentation for CoMMa is available at….. , including a user guide, CoMMa Toolbox summary flyer, example code, and gallery.
 
 # Data Preparation Tools
 The CoMMa Toolbox works on DEMs, obtained from multibeam echosounder data or other geophysical and optical instruments (e.g., Lidar, 3D seismic etc.). 
