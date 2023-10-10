@@ -44,10 +44,10 @@ The CoMMa Toolbox includes five tools devoted to data preparation, that can be f
     - The Deviation from mean elevation (DEV)
     
 -  **Median LTPs:**     Local topographic position index metrics based on the absolute and relative median of the neighbourhood.
-  - Median Bathymetry Position Index 
-  - Minimum Median Bathymetry Position Index
-  - Maximum Median Bathymetry Position Index
-  - Directional Median Bathymetry Position Index 
+    - Median Bathymetry Position Index 
+    - Minimum Median Bathymetry Position Index
+    - Maximum Median Bathymetry Position Index
+    - Directional Median Bathymetry Position Index  
 
 ## Pre-processing tools
 
