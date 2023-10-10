@@ -40,8 +40,8 @@ The CoMMa Toolbox includes five tools devoted to data preparation, that can be f
 ## Local Topographic Position (LTP) derivatives
 
 -  **Mean LTPs:**   Local topographic position index metrics based on the absolute and relative mean of the neighbourhood.
-  - The Bathymetry Position Index (BPI)
-  - The Deviation from mean elevation (DEV)
+    - The Bathymetry Position Index (BPI)
+    - The Deviation from mean elevation (DEV)
     
 -  **Median LTPs:**     Local topographic position index metrics based on the absolute and relative median of the neighbourhood.
   - Median Bathymetry Position Index 
