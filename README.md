@@ -1,5 +1,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8434457.svg)](https://doi.org/10.5281/zenodo.8434457)
 
+[![Github all releases](https://img.shields.io/github/downloads/ricarosio/CoMMa/total.svg)](https://GitHub.com/ricarosio/CoMMa/releases/)
+
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/Documentation/Images/CoMMaToolbox.png">
 </p>
