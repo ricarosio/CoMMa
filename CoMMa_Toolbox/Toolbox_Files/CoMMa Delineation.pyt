@@ -552,7 +552,7 @@ class Delineate(object):
                 arcpy.CalculateField_management(tempWS + "f7geo.shp", "Geo_rat", 
                                                 relExpression, "PYTHON3")
                 
-                # Delete polygons with a ratio area/geomorphons positive classes area smaller than 
+                # Delete polygons with a ratio geomorphons positive classes/ area smaller than 
                 #the Minimum Geomorphons ratio threshold (minGeoRatio)
                 if not arcpy.Exists(tempWS + "f7geo_lyr"):
                     arcpy.MakeFeatureLayer_management(tempWS + "f7geo.shp", tempWS + "f7geo_lyr")
@@ -830,13 +830,13 @@ class Delineate_geomorphons(object):
                         inputDEM = helper.convert_backslash_forwardslash(lyr.dataSource)
                         
         if parameters[1].value is not None:
-            if inputDer.rfind("/") < 0:
+            if inputGeom.rfind("/") < 0:
                 aprx = arcpy.mp.ArcGISProject("CURRENT")
                 m = aprx.activeMap            
                 for lyr in m.listLayers():
                     if lyr.isRasterLayer:
-                        if inputDer == lyr.name: 
-                            inputDer = helper.convert_backslash_forwardslash(lyr.dataSource)
+                        if inputGeom == lyr.name: 
+                            inputGeom = helper.convert_backslash_forwardslash(lyr.dataSource)
 
         else:
             pass

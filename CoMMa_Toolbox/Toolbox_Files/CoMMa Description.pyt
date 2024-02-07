@@ -61,7 +61,7 @@ class helpers(object):
         
         if analysisType == "Mean":
             globalRas = ZonalStatistics(zoneRaster,"value",inputDEM,"MEAN")
-            fcMean = FocalStatistics(inRaster,neighborhood,"MEAN")
+            fcMean = FocalStatistics(inputDEM,neighborhood,"MEAN")
             outRaster = Minus(globalRas,fcMean)
    
         
@@ -406,21 +406,23 @@ class Basic_descriptor(object):
         arcpy.AddMessage("Calculating derivatives ...")
         
         #Vertical relief
+        arcpy.AddMessage("... Vertical relief")
         if fillDirec == "Positive":
             featuresDEM = Negate(inputDEM)  
-            clip_rel = arcpy.Clip_management(featuresDEM, "", tempWS + "clip_rel.tif", tempWS + "deli.shp", '-9999', 'ClippingGeometry')
+            clip_rel = ExtractByMask(featuresDEM, tempWS + "deli.shp")
             filledDEM = Fill(clip_rel)
             Vert_rel = Minus(filledDEM, clip_rel)
         else:
-            clip_rel = arcpy.Clip_management(inputDEM, "", tempWS + "clip_rel.tif", tempWS + "deli.shp", '-9999', 'ClippingGeometry')
+            clip_rel = ExtractByMask(inputDEM, tempWS + "deli.shp")
             filledDEM = Fill(clip_rel)
             Vert_rel = Minus(filledDEM, clip_rel)
         
         # Slope
+        arcpy.AddMessage("... Slope")
         Slope_ = Slope(inputDEM, "DEGREE", 1)
-        #BPI
-        #BPI_ = helper.BPI_calc(inputDEM,inner_radius,outer_radius)
+
         #Local deviation from global median
+        arcpy.AddMessage("... Deviation from Global Median")
         LDfG_ = helper.LocDevfGlob_calc(inputDEM,"Median",3)
         
         List_dev = [Vert_rel, Slope_, LDfG_, inputDEM]
