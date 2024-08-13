@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8434457.svg)](https://doi.org/10.5281/zenodo.8434457)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11109024.svg)](https://doi.org/10.5281/zenodo.11109024)
 
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/CoMMa_Version_1_1/Documentation/Images/CoMMaToolbox.png">   
