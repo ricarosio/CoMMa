@@ -28,12 +28,13 @@
 It includes a selection of tools for the **delineation** and **description** of any type of enclosed features on a DEM, either negative or positive. The CoMMA toolbox includes three toolsets that allow the user to pre-process DEM data and calculate local topographic parameters, delineate potential features using the Delineation tools and describe the morphological characteristics of confined features using the basic, texture and volume descriptors tools. 
 The CoMMa Toolbox is made up of individual Python scripts that use a sequence of pre-existing ArcGIS geoprocessing tools and do not require the installation of any new Python package.
 
-Riccardo Arosio (University College Cork) and Joana Gafeira (British Geological Survey) conceived the original idea of the new ArcGIS Pro based on a previous toolbox created by Joana Gafeira, the BGS Seabed Mapping Toolbox (Gafeira, J., 2017). 
+Riccardo Arosio (University College Cork) and Joana Gafeira (Kelpie Geoscience) conceived the original idea of the new ArcGIS Pro based on a previous toolbox created by Joana Gafeira, the BGS Seabed Mapping Toolbox (Gafeira, J., 2017). 
 The tools development was mainly funded by **INFOMAR** through the **Irish Marine Institute**’s research grant PDOC 19/08/03. 
 The **British Geological Survey** and **iAtlantic Project** have also supported the creation of the toolbox.
 
 #  Documentation
-Several support material for the CoMMa Toolbox is available within the documentation folder, including CoMMa Toolbox summary flyer, tools metadata, and **User Guide**.
+Several support material for the CoMMa Toolbox is available within the documentation folder, including CoMMa Toolbox summary flyer, tools metadata, and **User Guide**. 
+The paper [CoMMa: A GIS geomorphometry toolbox to map and measure confined landforms](https://www.sciencedirect.com/science/article/pii/S0169555X24001776?via%3Dihub) also provides an assessment of the toolbox performance and additional information. 
 
 # Data Preparation Tools
 The CoMMa Toolbox works on DEMs, obtained from multibeam echosounder data or other geophysical and optical instruments (e.g., Lidar, 3D seismic etc.). 
