@@ -34,7 +34,7 @@ The **British Geological Survey** and **iAtlantic Project** have also supported 
 
 #  Documentation
 Several support material for the CoMMa Toolbox is available within the documentation folder, including CoMMa Toolbox summary flyer, tools metadata, and [**User Guide**](CoMMa_Toolbox/CoMMa_Version_1_2/Documentation_v1_2/Arosioetal_CoMMa_Supp_CoMMa_User_guide_V1_2.pdf). 
-The paper [CoMMa: A GIS geomorphometry toolbox to map and measure confined landforms](https://www.sciencedirect.com/science/article/pii/S0169555X24001776?via%3Dihub) also provides an assessment of the toolbox performance and additional information. 
+The paper [CoMMa: A GIS geomorphometry toolbox to map and measure confined landforms](https://www.sciencedirect.com/science/article/pii/S0169555X24001776?via%3Dihub) provides an assessment of the toolbox performance and additional information. 
 
 # Data Preparation Tools
 The CoMMa Toolbox works on DEMs, obtained from multibeam echosounder data or other geophysical and optical instruments (e.g., Lidar, 3D seismic etc.). 
