@@ -1,9 +1,11 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8434457.svg)](https://doi.org/10.5281/zenodo.8434457)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11109024.svg)](https://doi.org/10.5281/zenodo.11109024)
 
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/Documentation/Images/CoMMaToolbox.png">
+    <img width="50%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/CoMMa_Version_1_1/Documentation/Images/CoMMaToolbox.png">   
 </p>
-
+<p align="center" width="100%">
+**Version 1.2**
+</p>
 
 # Table of contents
 
@@ -26,12 +28,13 @@
 It includes a selection of tools for the **delineation** and **description** of any type of enclosed features on a DEM, either negative or positive. The CoMMA toolbox includes three toolsets that allow the user to pre-process DEM data and calculate local topographic parameters, delineate potential features using the Delineation tools and describe the morphological characteristics of confined features using the basic, texture and volume descriptors tools. 
 The CoMMa Toolbox is made up of individual Python scripts that use a sequence of pre-existing ArcGIS geoprocessing tools and do not require the installation of any new Python package.
 
-Riccardo Arosio (University College Cork) and Joana Gafeira (British Geological Survey) conceived the original idea of the new ArcGIS Pro based on a previous toolbox created by Joana Gafeira, the BGS Seabed Mapping Toolbox (Gafeira, J., 2017). 
+Riccardo Arosio (University College Cork) and Joana Gafeira (Kelpie Geoscience) conceived the original idea of the new ArcGIS Pro based on a previous toolbox created by Joana Gafeira, the BGS Seabed Mapping Toolbox (Gafeira, J., 2017). 
 The tools development was mainly funded by **INFOMAR** through the **Irish Marine Institute**’s research grant PDOC 19/08/03. 
 The **British Geological Survey** and **iAtlantic Project** have also supported the creation of the toolbox.
 
 #  Documentation
-Several support material for the CoMMa Toolbox is available within the documentation folder, including CoMMa Toolbox summary flyer, tools metadata, and gallery.
+Several support material for the CoMMa Toolbox is available within the documentation folder, including CoMMa Toolbox summary flyer, tools metadata, and [**User Guide**](CoMMa_Toolbox/CoMMa_Version_1_2/Documentation_v1_2/Arosioetal_CoMMa_Supp_CoMMa_User_guide_V1_2.pdf). 
+The paper [CoMMa: A GIS geomorphometry toolbox to map and measure confined landforms](https://www.sciencedirect.com/science/article/pii/S0169555X24001776?via%3Dihub) provides an assessment of the toolbox performance and additional information. 
 
 # Data Preparation Tools
 The CoMMa Toolbox works on DEMs, obtained from multibeam echosounder data or other geophysical and optical instruments (e.g., Lidar, 3D seismic etc.). 
@@ -57,7 +60,7 @@ The CoMMa Toolbox includes five tools devoted to data preparation, that can be f
 This tool creates an artificial containing “fence” around the perimeter of the input DEM, allowing the delineation of landforms that are at the boundary of the dataset and that otherwise would be considered, by the “Boundary-based Delineation” tool, as unconfined morphological features. 
 This script assists the feature delineation tools by creating a buffer around the Input Raster. For target features with positive relief, the minimum value of the input DEM will be used for the artificial fence set by the buffer, whereas for negative target features, it will use the maximum value. This artificial fence should allow the delineation of landforms only partially captured within the dataset and that otherwise would be considered, by the “Boundary-based Delineation” tool, as unconfined. 
 <p align="center" width="100%">
-    <img width="40%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/Documentation/Images/FencingTool.jpg">
+    <img width="40%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/CoMMa_Version_1_1/Documentation/Images/FencingTool.jpg">
 </p>
 
 ### Filter and clip
@@ -77,7 +80,7 @@ The **“Boundary-based delineation”** tool focuses on recognising the landfor
 The **“Elements-based delineation”** relies on land surface units created by the geomorphon landforms algorithm. This tool delineates confined landforms by aggregating positive or negative land surface elements (geomorphons).
 
 <p align="center" width="100%">
-    <img width="65%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/Documentation/Images/DelineationExamples.jpg"> 
+    <img width="65%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/CoMMa_Version_1_1/Documentation/Images/DelineationExamples.jpg"> 
 </p>    
 
 # Description Tools
@@ -98,7 +101,7 @@ Then, navigate to the folder where CoMMa Toolbox was saved and select the follow
 - CoMMa Data Preparation.pyt,  CoMMa Delineation.pyt  and  CoMMa Description.pyt.
 </p>
 <p align="center" width="100%">
-    <img width="70%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/Documentation/Images/AddToolbox_L.gif">
+    <img width="70%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/CoMMa_Version_1_1/Documentation/Images/AddToolbox_L.gif">
 </p>
 A reference to the toolsets is saved within the project and they will be in the Toolbox node of the Catalog pane the next time the project is open.
 
@@ -107,9 +110,9 @@ CoMMa Toolbox may be freely distributed, modified and used commercially under th
 
 # Acknowledgements 
 
-Riccardo Arosio (University College Cork) and Joana Gafeira (British Geological Survey) conceived the original idea of this new ArcGIS Pro implementation of a previous toolbox created by Joana Gafeira, the BGS Seabed Mapping Toolbox (Gafeira, J., 2017). Riccardo Arosio wrote the Python scripts while Joana Gafeira and Laurence De Clippele performed extensive testing.
+Riccardo Arosio (University College Cork) and Joana Gafeira (Kelpie Geoscience) conceived the original idea of the new ArcGIS Pro based on a previous toolbox created by Joana Gafeira, the BGS Seabed Mapping Toolbox (Gafeira, J., 2017). Riccardo Arosio wrote the Python scripts while Joana Gafeira and Laurence De Clippele performed extensive testing.
 
-The tools development was mainly funded by INFOMAR through the Irish Marine Institute’s research grant PDOC 19/08/03. The British Geological Survey and iAtlantic have also supported the creation of the toolbox.
+The tools development was mainly funded by INFOMAR through the Irish Marine Institute’s research grant PDOC 19/08/03. The British Geological Survey and EU H2020/iAtlantic have also supported the creation of the toolbox.
 
 
 ![image](https://github.com/ricarosio/CoMMa/assets/145455310/5fdd2e27-a0cd-4895-82c1-f5eebc690f1c)       ![image](https://github.com/ricarosio/CoMMa/assets/145455310/84f767ec-1421-4513-870d-3b502776e568)        ![image](https://github.com/ricarosio/CoMMa/assets/145455310/ecdc36f2-b59e-409f-92f9-09439b80b6d2)  
