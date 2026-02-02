@@ -4,7 +4,7 @@
     <img width="50%" src="https://github.com/ricarosio/CoMMa/blob/main/CoMMa_Toolbox/CoMMa_Version_1_1/Documentation/Images/CoMMaToolbox.png">   
 </p>
 <p align="center" width="100%">
-**Version 1.2**
+**Version 1.3**
 </p>
 
 # Table of contents
@@ -90,6 +90,7 @@ These tools can be used to characterise both features that were mapped automatic
 -	**Basic Descriptors**: Calculates a series of geometrical and statistical attributes for each shape contained in the delineation shapefile.
 -	**Texture Descriptors**: Calculates a few additional metrics, such as zonal vector ruggedness and aspect variability index, and optionally backscatter statistics.
 -	**Volume Descriptor**: Calculates the volume and more accurately the height for each shape contained in the delineation shapefile.
+-	**Point extrema extractor**: It extracts highest or lowest (or both) points of features and it saves them as a separate shapefile(s).
 
 
 # Installation
@@ -110,7 +111,7 @@ CoMMa Toolbox may be freely distributed, modified and used commercially under th
 
 # Acknowledgements 
 
-Riccardo Arosio (University College Cork) and Joana Gafeira (Kelpie Geoscience) conceived the original idea of the new ArcGIS Pro based on a previous toolbox created by Joana Gafeira, the BGS Seabed Mapping Toolbox (Gafeira, J., 2017). Riccardo Arosio wrote the Python scripts while Joana Gafeira and Laurence De Clippele performed extensive testing.
+Riccardo Arosio (British Geological Survey) and Joana Gafeira (Kelpie Geoscience) conceived the original idea of the new ArcGIS Pro based on a previous toolbox created by Joana Gafeira, the BGS Seabed Mapping Toolbox (Gafeira, J., 2017). Riccardo Arosio wrote the Python scripts while Joana Gafeira and Laurence De Clippele performed extensive testing.
 
 The tools development was mainly funded by INFOMAR through the Irish Marine Institute’s research grant PDOC 19/08/03. The British Geological Survey and EU H2020/iAtlantic have also supported the creation of the toolbox.
 
