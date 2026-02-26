@@ -457,7 +457,7 @@ class Delineate(object):
 
             saveDer.save(tempWS + "a1md.tif")
             
-            OutReclassed = Reclassify(featuresDer, "Value", reclassifyRanges, "NODATA")
+            OutReclassed = Reclassify(saveDer, "Value", reclassifyRanges, "NODATA")
             
         else:
             
